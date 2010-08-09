@@ -41,3 +41,8 @@ queue.push 'beacon'
 queue.push 'eggs'
 2.times {puts queue.shift}
 p queue
+
+puts "\n--- slicing ---"
+array = [ 1, 2, 3, 4, 5, 6, 7 ] 
+p array.first(4) 
+p array.last(4)
