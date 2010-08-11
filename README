@@ -1,6 +1,8 @@
-Here will be hosted tutorial code samples. 
+= Here will be hosted tutorial code samples. 
+
+Parts:
 
  * part1 - basic syntax examples
  * part2 - classes examples
  * part3 - blocks, iterators, containers
-
+ * part4 - inheritance, modules, mixins
