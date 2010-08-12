@@ -28,3 +28,12 @@ c2.greet  # parent's method overrited
 puts "Child's superclass is #{Child1.superclass}"
 puts "Parent's superclass is #{Parent.superclass}"
 
+# we can extend existing classes
+
+class Numeric
+  def inc_by(val)
+    self + val
+  end
+end
+
+p 10.inc_by 5 # 15
